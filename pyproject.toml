@@ -1,0 +1,11 @@
+[project]
+name = "ray5-firmware"
+version = "0.1.0"
+description = "Flash the A-LAS-CL-LTS-LONGER firmware image with esptool"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.14"
+dependencies = [
+    "esptool>=5.6.0",
+]
